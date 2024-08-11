@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.con{
+    background-image: url('/pic.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    border-bottom:3px solid black ;
+}
+
+.con2{
+    /* border: 2px solid black; */
+    padding: 200px;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+}
+
+p{
+    text-align: justify;
+    margin-top: 20px;
+    width: 600px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(206, 201, 201);
+}
+
+button{
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.7s;
+}
+
+button:hover{
+    background-color: rgb(89, 36, 138);
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.cards{
+    border: 2px solid black;
+    width: 340px;
+    height: 390px;
+    margin-top: 100px;
+    border-radius: 8px;
+    background-color: rgb(221, 8, 68);
+    border: none;
+    margin-inline: 30px;
+    transition: 0.9s;
+}
+
+.cards:hover{
+    transform: translateY(-20px);
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+h3{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h4{
+    padding: 20px;
+    text-align: justify;
+    color: white;
+    margin-top: 40px;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-top: 100px;
+}
